@@ -119,7 +119,7 @@ function ProjectTemplate({
                 <img
                   className="mt-4 rounded-xl shadow-gray-300"
                   key={index}
-                  src={`/assets/ProjectImages/${image}.png`}
+                  src="/assets/ProjectImages/${image}.png"
                   alt={`${image}`}
                 />
               ))}
