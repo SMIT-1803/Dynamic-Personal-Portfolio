@@ -10,7 +10,7 @@ function Portfolio() {
         description="Developed a personal portfolio website using HTML5 and CSS3 to showcase my projects, experiences, 
         and background. Emphasized modular design and semantic HTML to ensure maintainability and accessibility. Hosted 
         the website on GitHub Pages for seamless deployment and version control."
-        images={["PokedexMainPage","PokedexAdvanceSearch","PokemonMoreInfo"]}
+        images={["PortfolioHome"]}
         githubLink="https://github.com/SMIT-1803/Dynamic-Personal-Portfolio"
         webLink="https://dynamic-personal-portfolio.vercel.app/"
       />
