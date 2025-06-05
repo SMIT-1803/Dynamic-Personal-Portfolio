@@ -1,25 +1,27 @@
-import React from 'react'
+import React from "react";
 import { useEffect } from "react";
 import ProjectTemplate from "./ProjectTemplate";
 function SpotifyClone() {
   useEffect(() => {
-      document.title = "Spotify Clone | HTML, CSS, Javascript"
-    }, [])
+    document.title = "Spotify Clone | HTML, CSS, Javascript";
+  }, []);
   return (
     <>
       <ProjectTemplate
         ProjectTitle="Spotify Clone"
         Year={2024}
         TechStack={["HTML", "CSS", "Javascript"]}
-        description="Developed a responsive web-based music player inspired by Spotify, utilizing HTML, CSS, and JavaScript. 
-        Implemented core features such as audio playback controls and a user-friendly interface. The project showcases proficiency 
-        in front-end development and UI/UX design principles."
+        description="This Spotify-inspired music player is a front-end project built using React, Tailwind CSS, 
+        and Framer Motion to replicate the look and feel of the popular streaming platform. It features reusable 
+        components, scroll animations, and dynamic hover effects for playlists and songs. Although it doesn't stream music
+        , the project focuses on UI/UX fidelity and demonstrates strong frontend skills. You can check out the live demo or 
+        browse the codebase via the GitHub repo linked above."
         images={["SpotifyMainPage"]}
         githubLink="https://github.com/SMIT-1803/spotifyClone"
         webLink="https://spotify-clone-xi-hazel.vercel.app/"
       />
     </>
-  )
+  );
 }
 
-export default SpotifyClone
+export default SpotifyClone;
