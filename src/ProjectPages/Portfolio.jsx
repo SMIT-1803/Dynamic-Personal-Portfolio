@@ -4,7 +4,7 @@ function Portfolio() {
   return (
     <>
       <ProjectTemplate
-        ProjectTitle="Personal Portfolio"
+        ProjectTitle="Portfolio"
         Year={2025}
         TechStack={["React", "Router", "Tailwind CSS"]}
         description="I built this dynamic personal portfolio as a modern, interactive space to present my work, skills,
