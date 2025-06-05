@@ -34,7 +34,7 @@ function ProjectTemplate({
               <a href={githubLink} target="blank">
                 <motion.img
                   className="h-8 cursor-pointer"
-                  src="src/assets/OtherSVGs/github.svg"
+                  src="/assets/OtherSVGs/github.svg"
                   alt="Github SVG"
                   variants={{
                     animate: {
@@ -53,7 +53,7 @@ function ProjectTemplate({
               <a href={webLink} target="blank">
                 <motion.img
                   className="h-8 cursor-pointer"
-                  src="src/assets/OtherSVGs/redirect.svg"
+                  src="/assets/OtherSVGs/redirect.svg"
                   alt="Redirect SVG"
                   variants={{
                     animate: {
@@ -119,7 +119,7 @@ function ProjectTemplate({
                 <img
                   className="mt-4 rounded-xl shadow-gray-300"
                   key={index}
-                  src={`src/assets/ProjectImages/${image}.png`}
+                  src={`/assets/ProjectImages/${image}.png`}
                   alt={`${image}`}
                 />
               ))}

@@ -17,7 +17,7 @@ function ProjectSection() {
           whileInView="animate"
           viewport={{ once: true }}
         >
-          <motion.img className="h-7" src="src/assets/OtherSVGs/star.svg" alt="Star SVG" 
+          <motion.img className="h-7" src="/assets/OtherSVGs/star.svg" alt="Star SVG" 
           variants={rotation}
           whileInView="animate"
           />

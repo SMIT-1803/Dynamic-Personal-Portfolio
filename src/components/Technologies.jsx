@@ -11,7 +11,7 @@ const fadeInAnimationVariantsForLang = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: 0.2 * index,
+      delay: 0.1 * index,
       duration: 0.5,
       ease: "easeOut",
     },
@@ -42,7 +42,7 @@ function Technologies({ name, languages }) {
           >
             <img
               className="h-12"
-              src={`src/assets/LanguagesImages/${language}.svg`}
+              src={`/assets/LanguagesImages/${language}.svg`}
               alt={`${language} Icon`}
             />
             {name == "DATABASE" ? (

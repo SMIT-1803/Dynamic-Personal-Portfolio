@@ -27,7 +27,7 @@ function Hamburger() {
           <img
             onClick={handleClick}
             className="invisible h-10 cursor-pointer absolute top-22 right-10 z-10 md:visible lg:fixed"
-            src="src/assets/OtherSVGs/hamburger.svg"
+            src="/assets/OtherSVGs/hamburger.svg"
             alt="Hamburger"
           />
         )}

@@ -18,7 +18,7 @@ function TechStack() {
         >
           <motion.img
             className="h-7"
-            src="src/assets/OtherSVGs/star.svg"
+            src="/assets/OtherSVGs/star.svg"
             alt="Star SVG"
             variants={rotation}
             whileInView="animate"
@@ -27,7 +27,7 @@ function TechStack() {
         </motion.div>
         <Technologies
           name="FRONTEND"
-          languages={["Javascript", "TypeScript", "React", "Redux", "Tailwind"]}
+          languages={["Javascript", "TypeScript", "React", "Redux", "Tailwind", "Framermotion"]}
         />
         <Technologies name="BACKEND" languages={["Appwrite"]} />
         <Technologies name="DATABASE" languages={["Appwrite"]} />

@@ -18,7 +18,7 @@ function HamburgerPanel({ isOpen, onClick }) {
         <img
           onClick={handleClick}
           className="h-10 cursor-pointer"
-          src="src/assets/OtherSVGs/cross.svg"
+          src="/assets/OtherSVGs/cross.svg"
           alt="Cross"
         />
       </div>
