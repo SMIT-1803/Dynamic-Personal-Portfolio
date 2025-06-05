@@ -8,7 +8,7 @@ function TechStack() {
   return (
     <div className="grid grid-cols-[0.25fr_1.7fr_0.05fr] md:grid-cols-[0.4fr_2.2fr_0.4fr] gC">
       <div></div>
-      <div className="mt-10">
+      <div className="mt-20 md:mt-10">
         <motion.div
           className="text-xl flex items-center-safe gap-4"
           variants={fadeIn}
