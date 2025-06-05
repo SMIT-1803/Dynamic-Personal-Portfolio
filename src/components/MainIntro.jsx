@@ -46,7 +46,7 @@ function MainIntro() {
           whileInView="animate"
           viewport={{ once: true }}
         >
-          <a href="/assets/Resume.pdf">
+          <a href="/assets/Resume.pdf" target="blank">
             <motion.button
               className="anton px-4 py-3 bg-orange-400 text-sm mt-5 cursor-pointer md:text-lg md:px-6"
               initial="initial"
