@@ -45,7 +45,7 @@ function ProjectSection() {
           </Link>
           <Link to="/portfolio">
             <ProjectComp
-              ProjectTitle="Personal Portfolio"
+              ProjectTitle="Portfolio"
               TechStack={["React", "Tailwind CSS", "Frammer Motion"]}
             />
           </Link>
