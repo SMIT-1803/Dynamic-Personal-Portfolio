@@ -27,7 +27,7 @@ function TechStack() {
         </motion.div>
         <Technologies
           name="FRONTEND"
-          languages={["Javascript", "TypeScript", "React", "Redux", "Tailwind", "Framermotion"]}
+          languages={["Javascript", "TypeScript", "React", "Svelte", "Redux", "Tailwind", "Framermotion"]}
         />
         <Technologies name="BACKEND" languages={["Appwrite"]} />
         <Technologies name="DATABASE" languages={["Appwrite"]} />
