@@ -1,12 +1,30 @@
-# React + Vite
+# Dynamic Personal Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and animated personal portfolio website built with **React.js**, **Tailwind CSS**, and **Framer Motion**. Designed to showcase projects, experience, and skills in a visually engaging and performant format. Smooth scrolling and motion effects provide a polished user experience across all devices.
 
-Currently, two official plugins are available:
+## 🎯 Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Modern Design** – Clean layout with bold typography and interactive visuals
+- 🌀 **Scroll-Based Animations** – Powered by Framer Motion and Locomotive Scroll
+- 🗂️ **Project Pages** – Each project has a dedicated detail page with dynamic routing
+- 📱 **Responsive Layout** – Mobile-first design using Tailwind's utility classes
+- 🧭 **Smooth Navigation** – Hamburger menu, anchor-based scroll, and page transitions
+- 🔠 **Dynamic Metadata** – Project title updates in browser tab
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js, Tailwind CSS, Framer Motion, React Router
+- **Scroll & Effects**: Locomotive Scroll, Framer Motion
+- **Deployment**: Vercel
+- **Routing**: React Router DOM
+
+## 🌐 Live Demo
+
+Visit the live site: [https://dynamic-portfolio-ss.vercel.app/](https://dynamic-portfolio-ss.vercel.app/)  
+
+## 📦 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/SMIT-1803/Dynamic-Personal-Portfolio.git
+   cd Dynamic-Personal-Portfolio
