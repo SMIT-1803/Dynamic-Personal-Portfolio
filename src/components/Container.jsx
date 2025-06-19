@@ -9,11 +9,11 @@ import Hamburger from "./Hamburger";
 
 function Container() {
   return (
-    <>
-      <Hamburger />
-      <div className="container scroll-smooth">
-        <div id="home">
-          <GithubHeader />
+    <div className="mainContainer w-full m:0 p:0">
+      <div id="home" className="w-full scroll-smooth">
+        <Hamburger />
+        <GithubHeader />
+        <div className="container w-full scroll-smooth">
           <div className="grid mt-35 mb-32 md:mt-35 ">
             <div className="grid grid-cols-[0.25fr_1.5fr]">
               <div></div>
@@ -23,12 +23,13 @@ function Container() {
             </div>
           </div>
         </div>
+
         <DetailIntro />
         <TechStack />
         <ProjectSection />
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

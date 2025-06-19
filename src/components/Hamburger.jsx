@@ -17,7 +17,7 @@ function Hamburger() {
   return (
     <>
       <motion.div
-        className="hamburger w-full flex justify-end items-center"
+        className="hamburger w-full flex justify-end items-center absolute top-22 right-10 z-10"
         variants={rightIn}
         initial="initial"
         viewport={{ once: true }}
@@ -26,7 +26,7 @@ function Hamburger() {
         {!hamburger && (
           <img
             onClick={handleClick}
-            className="invisible h-10 cursor-pointer absolute top-22 right-10 z-10 md:visible lg:fixed"
+            className="h-10 cursor-pointer md:visible lg:fixed"
             src="/assets/OtherSVGs/hamburger.svg"
             alt="Hamburger"
           />
