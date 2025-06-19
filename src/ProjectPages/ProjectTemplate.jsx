@@ -1,6 +1,5 @@
 import React from "react";
 import GithubHeader from "../components/GithubHeader";
-import ScrollWrapper from "../ScrollSpeed/ScrollWrapper";
 import HamburgerProject from "../components/HamburgerProject";
 import { fadeIn, redirectArrow } from "../FramerMotion/FramerMotion";
 import { motion } from "framer-motion";
@@ -17,7 +16,7 @@ function ProjectTemplate({
   return (
     <>
       <HamburgerProject />
-      <ScrollWrapper>
+      {/* <ScrollWrapper> */}
         <GithubHeader />
         <div className=" mb-10 mt-20 pl-5 pr-5 lg:grid lg:grid-cols-[0.5fr_2fr_0.5fr] lg:mt-30 gC">
           <div></div>
@@ -126,7 +125,7 @@ function ProjectTemplate({
             </motion.div>
           </div>
         </div>
-      </ScrollWrapper>
+      {/* </ScrollWrapper> */}
     </>
   );
 }

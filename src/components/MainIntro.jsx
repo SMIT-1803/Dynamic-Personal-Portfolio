@@ -9,7 +9,7 @@ import {
 
 function MainIntro() {
   return (
-    <div id="home" className="intro grid grid-cols-1">
+    <div className="intro grid grid-cols-1">
       <div>
         <motion.h1
           className="anton text-orange-400 text-6xl sm:text-7xl md:text-9xl "
