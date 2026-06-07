@@ -49,25 +49,27 @@ function ProjectTemplate({
                   whileHover="animate"
                 />
               </a>
-              <a href={webLink} target="blank">
-                <motion.img
-                  className="h-8 cursor-pointer"
-                  src="/assets/OtherSVGs/redirect.svg"
-                  alt="Redirect SVG"
-                  variants={{
-                    animate: {
-                      x: [0, 5, 0],
-                      y: [0, -5, 0],
-                      transition: {
-                        repeat: Infinity,
-                        duration: 0.6,
-                        ease: "easeInOut",
+              {webLink && (
+                <a href={webLink} target="blank">
+                  <motion.img
+                    className="h-8 cursor-pointer"
+                    src="/assets/OtherSVGs/redirect.svg"
+                    alt="Redirect SVG"
+                    variants={{
+                      animate: {
+                        x: [0, 5, 0],
+                        y: [0, -5, 0],
+                        transition: {
+                          repeat: Infinity,
+                          duration: 0.6,
+                          ease: "easeInOut",
+                        },
                       },
-                    },
-                  }}
-                  whileHover="animate"
-                />
-              </a>
+                    }}
+                    whileHover="animate"
+                  />
+                </a>
+              )}
             </motion.div>
             <motion.div
               className="mb-5"
@@ -107,22 +109,24 @@ function ProjectTemplate({
               <p className="anton mb-2">Description</p>
               <p className="text-lg">{description}</p>
             </motion.div>
-            <motion.div
-              variants={fadeIn}
-              initial="initial"
-              whileInView="animate"
-              viewport={{ once: true }}
-              custom={5}
-            >
-              {images.map((image, index) => (
-                <img
-                  className="mt-4 rounded-xl shadow-gray-300"
-                  key={index}
-                  src={`/assets/ProjectImages/${image}.PNG`}
-                  alt={`${image}`}
-                />
-              ))}
-            </motion.div>
+            {images && images.length > 0 && (
+              <motion.div
+                variants={fadeIn}
+                initial="initial"
+                whileInView="animate"
+                viewport={{ once: true }}
+                custom={5}
+              >
+                {images.map((image, index) => (
+                  <img
+                    className="mt-4 rounded-xl shadow-gray-300"
+                    key={index}
+                    src={`/assets/ProjectImages/${image}.PNG`}
+                    alt={`${image}`}
+                  />
+                ))}
+              </motion.div>
+            )}
           </div>
         </div>
       {/* </ScrollWrapper> */}

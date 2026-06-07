@@ -6,7 +6,7 @@ import {rotation} from "../FramerMotion/FramerMotion"
 
 function TechStack() {
   return (
-    <div className="grid grid-cols-[0.25fr_1.7fr_0.05fr] md:grid-cols-[0.4fr_2.2fr_0.4fr] gC">
+    <div className="grid grid-cols-[0.4fr_2.2fr_0.4fr] gC">
       <div></div>
       <div className="mt-20 md:mt-10">
         <motion.div
@@ -27,12 +27,21 @@ function TechStack() {
         </motion.div>
         <Technologies
           name="FRONTEND"
-          languages={["Javascript", "TypeScript", "React", "Svelte", "Redux", "Tailwind", "Framermotion"]}
+          languages={["React", "Redux", "Tailwind", "Framermotion", "HTML", "CSS"]}
         />
-        <Technologies name="BACKEND" languages={["Appwrite"]} />
-        <Technologies name="DATABASE" languages={["Appwrite"]} />
-        <Technologies name="LANGUAGES" languages={["CPP", "Python"]} />
-        <Technologies name="TOOLS" languages={["Vercel", "Git", "Figma"]} />
+        <Technologies
+          name="BACKEND"
+          languages={["Nodejs", "Express", "Appwrite"]}
+        />
+        <Technologies name="DATABASE" languages={["MongoDB", "Appwrite"]} />
+        <Technologies
+          name="LANGUAGES"
+          languages={["Javascript", "TypeScript", "Python", "CPP"]}
+        />
+        <Technologies
+          name="TOOLS"
+          languages={["Git", "Docker", "AWS", "Postman", "Vercel", "Figma"]}
+        />
       </div>
     </div>
   );

@@ -45,11 +45,7 @@ function Technologies({ name, languages }) {
               src={`/assets/LanguagesImages/${language}.svg`}
               alt={`${language} Icon`}
             />
-            {name == "DATABASE" ? (
-              <p className="text-xl lg:text-2xl">{language} DB</p>
-            ) : (
-              <p className="text-xl md:text-2xl">{language}</p>
-            )}
+            <p className="text-xl md:text-2xl">{language}</p>
           </motion.div>
         ))}
       </div>

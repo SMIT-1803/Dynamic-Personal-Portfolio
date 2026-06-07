@@ -37,6 +37,31 @@ function ProjectSection() {
               ]}
             />
           </Link>
+          <Link to="/cryptoBot">
+            <ProjectComp
+              ProjectTitle="Crypto Trading Bot"
+              TechStack={[
+                "Python",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "AWS EC2",
+                "Kraken API",
+              ]}
+            />
+          </Link>
+          <Link to="/jotDown">
+            <ProjectComp
+              ProjectTitle="JotDown REST API"
+              TechStack={[
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JWT",
+                "Postman",
+              ]}
+            />
+          </Link>
           <Link to="/pokedex">
             <ProjectComp
               ProjectTitle="Pokédex"

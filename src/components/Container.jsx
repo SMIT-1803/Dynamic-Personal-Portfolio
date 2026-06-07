@@ -14,13 +14,12 @@ function Container() {
         <Hamburger />
         <GithubHeader />
         <div className="container w-full scroll-smooth">
-          <div className="grid mt-35 mb-32 md:mt-35 ">
-            <div className="grid grid-cols-[0.25fr_1.5fr]">
-              <div></div>
-              <div>
-                <MainIntro />
-              </div>
+          <div className="grid grid-cols-[0.4fr_2.2fr_0.4fr] mt-35 mb-32 md:mt-35">
+            <div></div>
+            <div>
+              <MainIntro />
             </div>
+            <div></div>
           </div>
         </div>
 

@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import {Blog, Pokedex, Portfolio, SpotifyClone} from "./ProjectPages/index.js"
+import {Blog, Pokedex, Portfolio, SpotifyClone, CryptoBot, JotDown} from "./ProjectPages/index.js"
 import Container from './components/Container.jsx'
 // import ScrollToHashElement from './components/ScrollToHashElement.jsx'
 
@@ -31,6 +31,14 @@ const router = createBrowserRouter([
       {
         path:"/spotifyClone",
         element:<SpotifyClone/>
+      },
+      {
+        path:"/cryptoBot",
+        element:<CryptoBot/>
+      },
+      {
+        path:"/jotDown",
+        element:<JotDown/>
       },
     ]
   }
