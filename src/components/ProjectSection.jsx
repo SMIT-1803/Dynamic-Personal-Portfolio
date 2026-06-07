@@ -17,7 +17,7 @@ function ProjectSection() {
           whileInView="animate"
           viewport={{ once: true }}
         >
-          <motion.img className="h-7" src="/assets/OtherSVGs/star.svg" alt="Star SVG" 
+          <motion.img className="h-7" src="/assets/OtherSVGs/star.svg" alt=""
           variants={rotation}
           whileInView="animate"
           />
@@ -71,7 +71,7 @@ function ProjectSection() {
           <Link to="/portfolio">
             <ProjectComp
               ProjectTitle="Portfolio"
-              TechStack={["React", "Tailwind CSS", "Frammer Motion"]}
+              TechStack={["React", "React Router", "Tailwind CSS", "Framer Motion"]}
             />
           </Link>
           <Link to="/spotifyClone">

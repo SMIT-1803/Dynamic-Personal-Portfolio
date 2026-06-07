@@ -31,7 +31,7 @@ function ProjectComp({ ProjectTitle, TechStack }) {
           <motion.img
             className="h-8"
             src="/assets/OtherSVGs/redirect.svg"
-            alt="Redirect SVG"
+            alt=""
             variants={{
               hover: {
                   x: [0, 5, 0],

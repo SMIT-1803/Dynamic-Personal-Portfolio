@@ -19,7 +19,7 @@ function TechStack() {
           <motion.img
             className="h-7"
             src="/assets/OtherSVGs/star.svg"
-            alt="Star SVG"
+            alt=""
             variants={rotation}
             whileInView="animate"
           />

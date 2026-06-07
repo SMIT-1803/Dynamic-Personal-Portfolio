@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import ProjectTemplate from "./ProjectTemplate";
 function Pokedex() {
   useEffect(() => {
-    document.title = "Pokedex | React, Tailwind CSS";
+    document.title = "Pokédex | React, Tailwind CSS";
   }, []);
   return (
     <>

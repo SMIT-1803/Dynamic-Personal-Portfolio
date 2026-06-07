@@ -28,7 +28,7 @@ function Hamburger() {
             onClick={handleClick}
             className="h-10 cursor-pointer md:visible lg:fixed"
             src="/assets/OtherSVGs/hamburger.svg"
-            alt="Hamburger"
+            alt="Open menu"
           />
         )}
       </motion.div>

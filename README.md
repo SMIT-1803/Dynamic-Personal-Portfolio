@@ -5,7 +5,7 @@ A fully responsive and animated personal portfolio website built with **React.js
 ## 🎯 Highlights
 
 - 🎨 **Modern Design** – Clean layout with bold typography and interactive visuals
-- 🌀 **Scroll-Based Animations** – Powered by Framer Motion and Locomotive Scroll
+- 🌀 **Scroll-Based Animations** – Powered by Framer Motion
 - 🗂️ **Project Pages** – Each project has a dedicated detail page with dynamic routing
 - 📱 **Responsive Layout** – Mobile-first design using Tailwind's utility classes
 - 🧭 **Smooth Navigation** – Hamburger menu, anchor-based scroll, and page transitions
@@ -13,10 +13,10 @@ A fully responsive and animated personal portfolio website built with **React.js
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS, Framer Motion, React Router
-- **Scroll & Effects**: Locomotive Scroll, Framer Motion
-- **Deployment**: Vercel
+- **Frontend**: React.js, Tailwind CSS, Framer Motion
+- **Animations & Effects**: Framer Motion
 - **Routing**: React Router DOM
+- **Deployment**: Vercel
 
 ## 🌐 Live Demo
 

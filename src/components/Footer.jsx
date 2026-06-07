@@ -14,7 +14,7 @@ function Footer() {
       <p className="text-3xl mt-4 lg:text-4xl lg:mt-6"><a className="anton" href="mailto:sss101@sfu.ca">sss101@sfu.ca</a></p>
       <div className="mt-4 text-center lg:mt-6">
         <p className="text-sm">Designed & built by Smit Sanghvi</p>
-        <p className="text-sm">&copy; 2025 All rights reserved.</p>
+        <p className="text-sm">&copy; {new Date().getFullYear()} All rights reserved.</p>
       </div>
     </motion.div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import GithubHeader from "../components/GithubHeader";
 import HamburgerProject from "../components/HamburgerProject";
-import { fadeIn, redirectArrow } from "../FramerMotion/FramerMotion";
+import { fadeIn } from "../FramerMotion/FramerMotion";
 import { motion } from "framer-motion";
 
 function ProjectTemplate({
@@ -30,11 +30,11 @@ function ProjectTemplate({
               custom={1}
             >
               <p className="anton text-4xl md:text-6xl">{ProjectTitle}</p>
-              <a href={githubLink} target="blank">
+              <a href={githubLink} target="_blank" rel="noopener noreferrer">
                 <motion.img
                   className="h-8 cursor-pointer"
                   src="/assets/OtherSVGs/github.svg"
-                  alt="Github SVG"
+                  alt={`View ${ProjectTitle} source on GitHub`}
                   variants={{
                     animate: {
                       x: [0, 5, 0],
@@ -50,11 +50,11 @@ function ProjectTemplate({
                 />
               </a>
               {webLink && (
-                <a href={webLink} target="blank">
+                <a href={webLink} target="_blank" rel="noopener noreferrer">
                   <motion.img
                     className="h-8 cursor-pointer"
                     src="/assets/OtherSVGs/redirect.svg"
-                    alt="Redirect SVG"
+                    alt={`Open ${ProjectTitle} live site`}
                     variants={{
                       animate: {
                         x: [0, 5, 0],

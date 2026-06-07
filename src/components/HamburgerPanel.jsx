@@ -19,7 +19,7 @@ function HamburgerPanel({ isOpen, onClick }) {
           onClick={handleClick}
           className="h-10 cursor-pointer"
           src="/assets/OtherSVGs/cross.svg"
-          alt="Cross"
+          alt="Close menu"
         />
       </div>
 
@@ -58,13 +58,13 @@ function HamburgerPanel({ isOpen, onClick }) {
           <p className="text-xl anton md:text-2xl">Social</p>
           <ul className="mt-3">
             <li className="text-xl list-disc list-inside marker:text-orange-400 marker:text-4xl md:text-2xl">
-              <a href="https://www.linkedin.com/in/smit-sanghvi-297824256/" target="blank">Linkedin</a>
+              <a href="https://www.linkedin.com/in/smit-sanghvi-297824256/" target="_blank" rel="noopener noreferrer">Linkedin</a>
             </li>
             <li className="text-xl list-disc list-inside marker:text-blue-400 marker:text-4xl md:text-2xl">
-              <a href="https://github.com/SMIT-1803" target="blank">Github</a>
+              <a href="https://github.com/SMIT-1803" target="_blank" rel="noopener noreferrer">Github</a>
             </li>
             <li className="text-xl list-disc list-inside marker:text-green-400 marker:text-4xl md:text-2xl">
-              <a href="https://www.instagram.com/smitsanghvi18/" target="blank">Instagram</a>
+              <a href="https://www.instagram.com/smitsanghvi18/" target="_blank" rel="noopener noreferrer">Instagram</a>
             </li>
           </ul>
         </div>
